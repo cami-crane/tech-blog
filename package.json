@@ -1,0 +1,33 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "Zenn と Qiita 管理用",
+  "main": "index.js",
+  "scripts": {
+    "zenn": "npx zenn preview",
+    "qiita": "npx qiita preview",
+    "add:zenn": "npx zenn new:article",
+    "add:qiita": "npx qiita new",
+    "login": "npx qiita login",
+    "pull": "npx qiita pull",
+    "publish": "npx qiita publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cami-crane/tech-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cami-crane/tech-blog/issues"
+  },
+  "homepage": "https://github.com/cami-crane/tech-blog#readme",
+  "dependencies": {
+    "zenn-cli": "^0.1.158"
+  },
+  "devDependencies": {
+    "@qiita/qiita-cli": "^1.6.1"
+  }
+}

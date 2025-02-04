@@ -37,7 +37,7 @@ npm run add:qiita (記事のファイルのベース名)
 
 ### Zenn の記事をプレビュー
 下記のコマンドで記事が作成される。  
-`http://localhost:8000`
+http://localhost:8000
 
 ```sh
 npm run zenn
@@ -45,7 +45,7 @@ npm run zenn
 
 ### Qiita の記事をプレビュー
 下記のコマンドで記事が作成される。  
-[`http://localhost:8000]`(http://[::1]:8001/)
+http://localhost:8001
 
 ```sh
 npm run qiita

@@ -4,6 +4,8 @@
   "description": "Zenn と Qiita 管理用",
   "main": "index.js",
   "scripts": {
+    "dev:zenn": "npx zenn preview",
+    "create:zenn": "npx zenn new:article",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

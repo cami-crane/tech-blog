@@ -9,6 +9,7 @@
     "add:zenn": "npx zenn new:article",
     "add:qiita": "npx qiita new",
     "login": "npx qiita login",
+    "pull": "npx qiita pull",
     "publish": "npx qiita publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

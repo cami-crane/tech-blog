@@ -4,6 +4,18 @@ Zenn と Qiita の記事を管理する。
 ## 環境構築
 下記を参照
 - https://zenn.dev/shogo_wada_pro/articles/35db506b92caae#fn-3fcd-4
+## 構成
+
+```
+root/
+　├ .github/
+　├ articles/  // Zennの記事
+　├ book/  // Zennの本
+　└ public/ // Qiitaの記事
+　│　└ .remote/
+　│
+　└ .env  // qiitaのToken記載
+```
 
 ## 記事の作成
 

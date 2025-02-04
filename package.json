@@ -1,0 +1,23 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "Zenn と Qiita 管理用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cami-crane/tech-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cami-crane/tech-blog/issues"
+  },
+  "homepage": "https://github.com/cami-crane/tech-blog#readme",
+  "dependencies": {
+    "zenn-cli": "^0.1.158"
+  }
+}
